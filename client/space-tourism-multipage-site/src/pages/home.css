@@ -1,0 +1,64 @@
+
+
+.Home{
+    display: flex;
+    flex-direction: row;
+    border: solid red 1px;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2rem; */
+    justify-content: space-around;
+}
+
+.parapgraph{
+    width:32%;
+    border: solid white 1px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0%;
+    justify-content: baseline;
+}
+
+.explore{
+    width: 40%;
+    border: solid white 1px;
+    height: 70%;
+    display: flex;
+     
+}
+
+.exploration{
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 135px;
+    right: 100px; 
+
+}
+.so {
+    color:#808080;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.space {
+
+    color:white;
+    font-size:100px ;
+    margin-bottom: 2.0rem;
+    margin-top: 1.0rem;
+
+
+}
+.p2 {
+    color:#808080;
+
+}

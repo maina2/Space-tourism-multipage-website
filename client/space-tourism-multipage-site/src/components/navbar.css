@@ -1,0 +1,41 @@
+.navbar {
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 4rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  
+  .pages ul li a {
+    text-decoration: none;
+  }
+  
+  
+  .pages ul li a:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: 1.5rem;
+  }
+  
+  .pages {
+    width: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    background-color: rgba(251, 251, 251, 0.14);
+  }
